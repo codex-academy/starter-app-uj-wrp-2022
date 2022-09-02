@@ -14,7 +14,9 @@ Then clone it into you local projects folder.
 git clone <url to your fork of this repo>
 ```
 
-Then install the dependencies using `npm install`.
+Change into the projects folder: `cd starter-app-uj-wrp-2022`
+
+Then install all the dependencies using `npm install`.
 
 Start the app using: `npm run dev`.
 
