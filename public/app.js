@@ -1,6 +1,8 @@
 document.addEventListener('alpine:init', () => {
     //
 
+    // Alpine.store()
+
     Alpine.data('cars', function(){
         return {
             name : 'Cars',
@@ -10,7 +12,7 @@ document.addEventListener('alpine:init', () => {
             }],
             makeId : 0,
             makeSelected(){
-                alert(this.makeId)
+                // alert(this.makeId)
             },
             init() {
                 axios
